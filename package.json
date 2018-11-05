@@ -1,0 +1,20 @@
+{
+  "name": "getting-started-seneca",
+  "version": "1.0.0",
+  "description": "Code examples for the Seneca Getting Started Guide.",
+  "author": "",
+  "license": "MIT",
+  "scripts": {
+      "start": "node rng-service --seneca.log.all | node math-service --seneca.log.all | node bigsix-service --seneca.log.all | node server --seneca.log.all"
+  },  
+  "dependencies": {
+    "body-parser": "^1.13.2",
+    "express": "^4.13.1",
+    "seneca": "2.0.0",
+    "seneca-entity": "0.0.1",
+    "seneca-web": "^2.0.0",
+    "seneca-web-adapter-express": "^1.0.2",
+    "mersenne-twister": "^1.1.0",
+    "node-cache": "^4.2.0"
+  }
+}
